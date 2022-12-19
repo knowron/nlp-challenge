@@ -189,11 +189,11 @@ def _search(
     Args:
         bm25 (:obj:`BM25Plus`):
             The indexed corpus, i.e., our knowledge base.
-        corpus (:obj:`List[str]`):
-            The unprocessed corpus.
         query (:obj:`str`):
             The query to use for the search.
-        top_k (:obj:`Optional[int], defaults to 5`):
+        corpus (:obj:`List[str]`):
+            The unprocessed corpus.
+        top_k (:obj:`Optional[int]`, defaults to 5):
             The maximum number of matching passages to
             return.
 
